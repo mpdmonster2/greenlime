@@ -42,7 +42,7 @@
       <div style="margin-top:100px; text-align:center;">
          <form id="urlSearch" method='GET' onsubmit='goToPage();'>
             <h1>Muun Proxy</h1>
-            <input placeholder="Enter URL" type="text" name='url' required="">
+            <input placeholder="Enter URL" type="text" name='url' id="url" required="">
             <button style='text-align:center;'>Submit</button>
          </form>
          <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -51,6 +51,8 @@
       <script>
          document.getElementById("urlSearch").action = "https://mun." + document.domain + "/get";
      </script>
+     
+     <script>if(document.getElementById("url").value  == "google.com" || "www.google.com" || "https://www.google.com" || "http://www.google.com" || "https://google.com" || "http://google.com") { alert("Google does not work with the muun proxy."); }</script>
      <script>document.getElementById("movie").href = "https://mun." + document.domain + "/get?url=https://www1.yesmovies.fm/"</script>
    </body>
 </html>
