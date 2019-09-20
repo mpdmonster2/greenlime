@@ -1,7 +1,4 @@
-<html>
 
-<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico">
-<title>My Drive - Google Drive</title>
 <style type="text/css">
 
 html body {
@@ -22,9 +19,9 @@ html body {
 	-webkit-user-select: none; 
 	-o-user-select: none; 
 	
-	border-bottom:1px solid #CE00C0;
+	border-bottom:1px solid #151515;
 	
-    background:#4D0243;
+    background:#FFC8C8;
 	
 	height:45px;
 	line-height:45px;
@@ -40,8 +37,6 @@ html body {
 }
 
 </style>
-
-<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico">
 
 <script>
 var url_text_selected = false;
@@ -80,6 +75,3 @@ function smart_select(ele){
 <script type="text/javascript">
 	smart_select(document.getElementsByName("url")[0]);
 </script>
-
-	
-<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico">
