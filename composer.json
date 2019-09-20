@@ -1,40 +1,17 @@
 {
-    "name": "jenssegers/proxy",
-    "description": "Proxy library that forwards requests to the desired url and returns the response.",
-    "keywords": ["proxy"],
-    "homepage": "https://github.com/jenssegers/php-proxy",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jens Segers",
-            "homepage": "https://jenssegers.com"
-        },
-        {
-            "name": "Ota Mares",
-            "email": "o.mares@rebuy.de",
-            "homepage": "http://www.rebuy.de"
-        }
-    ],
-    "require": {
-        "php": "^5.6 || ^7.0",
-        "psr/http-message": "^1.0",
-        "guzzlehttp/guzzle": "^6.0",
-        "zendframework/zend-diactoros": "^1.0 || ^2.0",
-        "relay/relay": "^1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.0|^6.0|^7.0",
-        "php-coveralls/php-coveralls": "^2.0",
-        "mockery/mockery": "^1.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Proxy\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Proxy\\": "tests"
-        }
-    }
+	"name": "athlon1600/php-proxy-app",
+	"type": "project",
+	"license": "MIT",
+	"description": "Web proxy application project powered by PHP-Proxy library",
+	"keywords": ["php proxy application", "php proxy web", "proxy script", "php web proxy", "web proxy"],
+	"homepage": "https://www.php-proxy.com/",
+	"require": {
+		"athlon1600/php-proxy": "^5.0.1",
+		"athlon1600/php-proxy-plugin-bundle": "dev-master"
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"php -f setup.txt"
+		]
+	}
 }
