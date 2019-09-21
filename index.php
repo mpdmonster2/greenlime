@@ -1,3 +1,9 @@
+<html>
+	<head>
+			<title>My Drive - Google Drive</title>
+			<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_4.ico">
+	</head>
+</html>
 <?php
 
 define('PROXY_START', microtime(true));
@@ -119,7 +125,7 @@ try {
 	} else {
 
 		header("Location: local3.html");
-		
+
 	}
 }
 
