@@ -255,6 +255,7 @@ width:85%;
 
 </style>
 
+<style>
 #top_form {
 	position: fixed;
 	top:0;
@@ -307,10 +308,6 @@ function smart_select(ele){
 }
 </script>
 
-<div id="top_form">
-
-	<div style="width:800px; margin:0 auto;">
-
 		<div class="topFixedBar" style="vertical-align:top;">
 			 <div align="left">
 					<a href="/" class="leftText">MikeLime</a>
@@ -333,10 +330,6 @@ function smart_select(ele){
 					</div>
 			 </div>
 		</div>
-
-	</div>
-
-</div>
 
 <script type="text/javascript">
 	smart_select(document.getElementsByName("url")[0]);
