@@ -1,12 +1,3 @@
-
-<style type="text/css">
-
-html body {
-	margin-top: 50px !important;
-}
-
-</style>
-
 <style>
 a.button1 {
 padding:1.4em 1.4em;
