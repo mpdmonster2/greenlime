@@ -248,7 +248,7 @@ width:85%;
 
 </style>
 
-		<div class="topFixedBar" style="vertical-align:top;">
+		<div class="topFixedBar" style="vertical-align:top;" style="position:fixed;">
 			 <div align="left">
 					<a href="/" class="leftText">MikeLime</a>
 			 </div>
