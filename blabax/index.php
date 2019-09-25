@@ -1,4 +1,5 @@
 <?php
+
 if(@filesize('config.php')<5){header('location: install/index.php');die();}
 
 require_once('config.php');
