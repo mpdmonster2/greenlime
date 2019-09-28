@@ -17,3 +17,7 @@ a {
     text-align: center;
     display: inline;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
