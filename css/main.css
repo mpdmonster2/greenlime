@@ -12,7 +12,7 @@ body{
 }
 
   .tos {
-    color: #CD2769;
+    color: #bd3b36;
   }
 
 html body {
@@ -57,7 +57,7 @@ a.button1 {
     float:right;
 }
 a.button1:hover {
-    color:#CD2769;
+    color:#bd3b36;
 }
 @media screen and (max-width:600px){
     a.button1{
@@ -72,7 +72,7 @@ a.button1:hover {
   .topnav a {
     float: left;
     display: block;
-    color: #CD2769;
+    color: #bd3b36;
     text-align: center;
     padding: 24px 7%;
     text-decoration: none;
@@ -160,9 +160,9 @@ a.button1:hover {
   .btn {
     box-sizing: border-box;
     background-color: transparent;
-    border: 2px solid #CD2769;
+    border: 2px solid #bd3b36;
     border-radius: 0.6em;
-    color: #CD2769;
+    color: #bd3b36;
     margin:0.3em;
     cursor: pointer;
     display: inline-block;
@@ -185,9 +185,9 @@ a.button1:hover {
     outline: 0;
     }
     .fourth {
-    border-color: #CD2769;
+    border-color: #bd3b36;
     color: #fff;
-    background-image: linear-gradient(45deg, #CD2769, 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #bd3b36, 50%, transparent 50%);
     background-position: 100%;
     background-size: 400%;
     transition: background 300ms ease-in-out;
@@ -199,9 +199,9 @@ a.button1:hover {
     .btn2 {
         box-sizing: border-box;
         background-color: transparent;
-        border: 2px solid #CD2769;
+        border: 2px solid #bd3b36;
         border-radius: 0.6em;
-        color: #CD2769;
+        color: #bd3b36;
         margin:0.3em;
         cursor: pointer;
         display: inline-block;
@@ -224,9 +224,9 @@ a.button1:hover {
         outline: 0;
         }
         .fourth2 {
-        border-color: #CD2769;
+        border-color: #bd3b36;
         color: #fff;
-        background-image: linear-gradient(45deg, #CD2769, 50%, transparent 50%);
+        background-image: linear-gradient(45deg, #bd3b36, 50%, transparent 50%);
         background-position: 100%;
         background-size: 400%;
         transition: background 300ms ease-in-out;
