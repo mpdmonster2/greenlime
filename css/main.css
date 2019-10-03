@@ -57,7 +57,7 @@ a.button1 {
     float:right;
 }
 a.button1:hover {
-    color:#bd3b36;
+    color:black;
 }
 @media screen and (max-width:600px){
     a.button1{
@@ -237,7 +237,7 @@ a.button1:hover {
 
       .topFixedBar
       {
-      background-color: #120a21;
+      background-color: #bd3b36;
       height: 67px;
       width: 100%;
       top: 0px !important;
