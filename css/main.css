@@ -57,7 +57,7 @@ a.button1 {
     float:right;
 }
 a.button1:hover {
-    color:black;
+    color:#bd3b36;
 }
 @media screen and (max-width:600px){
     a.button1{
