@@ -44,6 +44,16 @@ html body {
     clear:both;
     }
 
+    hr {
+    width: 100%;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border: 0 none;
+    margin-top: 65px;
+    }
+
 a.button1 {
     padding:1.4em 1.4em;
     margin:0 0.3em 0.3em 0;
