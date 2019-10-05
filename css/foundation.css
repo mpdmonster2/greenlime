@@ -23,12 +23,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0;
-  overflow: visible; }
-
 pre {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -2255,16 +2249,6 @@ a {
     color: #1468a0; }
   a img {
     border: 0; }
-
-hr {
-  clear: both;
-  max-width: 75rem;
-  height: 0;
-  margin: 1.25rem auto;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #cacaca;
-  border-left: 0; }
 
 ul,
 ol,
