@@ -8,7 +8,7 @@ h1 {
   height: 100px;
   width: 100%;
   font-size: 18px;
-  background: #120a21;
+  background: #bf5d4d;
   color: white;
   line-height: 150%;
   border-radius: 3px 3px 0 0;
@@ -18,7 +18,7 @@ form {
   box-sizing: border-box;
   width: 260px;
   margin: 100px auto 0;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: white;
   padding-bottom: 40px;
   border-radius: 3px;
 }
@@ -38,7 +38,7 @@ input {
   background-position: -200px 0;
   background-size: 200px 100%;
   background-repeat: no-repeat;
-  color: #120a21;
+  color: #ffffff;
 }
 input:focus, input:valid {
   box-shadow: none;
@@ -53,7 +53,7 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
 }
 button {
   border: none;
-  background: #120a21;
+  background: #bf5d4d;
   cursor: pointer;
   border-radius: 3px;
   padding: 6px;
