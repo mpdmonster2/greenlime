@@ -170,9 +170,9 @@ a.button1:hover {
   .btn {
     box-sizing: border-box;
     background-color: transparent;
-    border: 2px solid #2b3a65;
+    border: 2px solid #ffffff;
     border-radius: 0.6em;
-    color: #2b3a65;
+    color: #ffffff;
     margin:0.3em;
     cursor: pointer;
     display: inline-block;
@@ -195,7 +195,7 @@ a.button1:hover {
     outline: 0;
     }
     .fourth {
-    border-color: #2b3a65;
+    border-color: #ffffff;
     color: #fff;
     background-image: linear-gradient(45deg, #2b3a65, 50%, transparent 50%);
     background-position: 100%;
@@ -209,9 +209,9 @@ a.button1:hover {
     .btn2 {
         box-sizing: border-box;
         background-color: transparent;
-        border: 2px solid #2b3a65;
+        border: 2px solid #ffffff;
         border-radius: 0.6em;
-        color: #2b3a65;
+        color: #ffffff;
         margin:0.3em;
         cursor: pointer;
         display: inline-block;
@@ -234,7 +234,7 @@ a.button1:hover {
         outline: 0;
         }
         .fourth2 {
-        border-color: #2b3a65;
+        border-color: #ffffff;
         color: #fff;
         background-image: linear-gradient(45deg, #2b3a65, 50%, transparent 50%);
         background-position: 100%;
@@ -250,7 +250,7 @@ a.button1:hover {
       height: 67px;
       width: 100%;
       top: 0px !important;
-      background-color: #2b3a65;
+      background-color: #7a2647;
       }
 
       @font-face {
