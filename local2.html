@@ -40,7 +40,7 @@
          </div>
       </div>
       <div style="margin-top:100px; text-align:center;">
-         <form id="urlSearch" method='GET' onsubmit='handleClick(inputVal);'>
+         <form id="urlSearch" method='GET' onsubmit='handleClick(document.getElementById("url").value);'>
             <h1>Node Unblocker</h1>
             <input placeholder="Enter URL" type="text" name='url' id="url" required="">
             <button style='text-align:center;'>Submit</button>
