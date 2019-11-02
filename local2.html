@@ -40,8 +40,8 @@
          </div>
       </div>
       <div style="margin-top:100px; text-align:center;">
-         <form id="urlSearch" method='GET' onsubmit='goToPage();'>
-            <h1>Muun Proxy</h1>
+         <form id="urlSearch" method='GET' onsubmit='handleClick();'>
+            <h1>Node Unblocker</h1>
             <input placeholder="Enter URL" type="text" name='url' id="url" required="">
             <button style='text-align:center;'>Submit</button>
          </form>
@@ -49,8 +49,12 @@
          <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
       </div>
       <script>
-         document.getElementById("urlSearch").action = "https://mun." + document.domain + "/get";
+         var inputVal = document.getElementById("url").value;
+         function handleClick(url) {
+           window.open("https://mun." + document.domain + "/textbooks/" + url);
+         }
+         handleClick(inputVal);
      </script>
-     <script>document.getElementById("movie").href = "https://mun." + document.domain + "/get?url=http://yesmovies.fm"</script>
+     <script>document.getElementById("movie").href = "https://mun." + document.domain + "/textbooks/http://yesmovies.fm"</script>
    </body>
 </html>
