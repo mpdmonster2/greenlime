@@ -40,7 +40,7 @@
          </div>
       </div>
       <div style="margin-top:100px; text-align:center;">
-         <form id="urlSearch" method='GET' onsubmit='handleClick();'>
+         <form id="urlSearch" method='GET' onsubmit='handleClick(inputVal);'>
             <h1>Node Unblocker</h1>
             <input placeholder="Enter URL" type="text" name='url' id="url" required="">
             <button style='text-align:center;'>Submit</button>
@@ -53,7 +53,6 @@
          function handleClick(url) {
            window.open("https://mun." + document.domain + "/textbooks/" + url);
          }
-         handleClick(inputVal);
      </script>
      <script>document.getElementById("movie").href = "https://mun." + document.domain + "/textbooks/http://yesmovies.fm"</script>
    </body>
